@@ -39,11 +39,11 @@ Development tools:
 Example for Linux:
 ```
 sudo apt update
-sudo apt install fuse libfuse-dev bzip2 libbz2-dev cmake gcc-c++ git libattr1-dev
+sudo apt install fuse libfuse-dev libfuse3-dev bzip2 libbz2-dev cmake gcc-c++ git libattr1-dev
 ```
 Clone the repository:
 ```
-git clone https://github.com/sgan81/apfs-fuse.git
+git clone https://github.com/guoxiaoqiao/apfs-fuse.git
 cd apfs-fuse
 git submodule init
 git submodule update
